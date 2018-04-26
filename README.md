@@ -24,7 +24,7 @@ How not to handle integers in solidity
  1. Click on `Create` to deploy the contract
  1. Click on `overflown` that will return a value of `false`
  1. Click on `balance` that will return a value of `0`
- 1. Click on `buy` with `255` as input. It will fail.
+ 1. Click on `buy` with `254` as input. It will fail.
  1. Click on `buy` with `255` as input. It will pass.
  1. Click on `overflown` again and it's value will now be `true`
 
